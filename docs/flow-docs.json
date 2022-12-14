@@ -1,49 +1,81 @@
 {
-    "$schema": "https://developers.flow.com/schemas/flow-docs.json",
-    "displayName": "Mobile",
-    "redirects": {
-      "": "index"
-    },
-    "headers": {
-      "": {
-        "icon": "cadence",
-        "title": "Mobile",
-        "description": "Flow Mobile docs section",
-        "headerCards": [
-           {
-            "title": "Why Use Cadence?",
-            "tags": ["reference", "patterns"],
-            "description":"Learn the main benefits of using Cadence for smart contract development.",
-            "href": "/cadence/why"
-          },
-          {
-            "title": "Hello World Tutorial",
-            "tags": ["tutorial", "playground"],
-            "description": "Write and deploy your first smart contract within minutes on our Playground.",
-            "href": "/cadence/tutorial/02-hello-world"
-          }
-        ]
-      }
-    },
-    "sidebars": {
-      "": [
+  "$schema": "https://developers.flow.com/schemas/flow-docs.json",
+  "displayName": "Mobile",
+  "redirects": {
+    "": "index"
+  },
+  "headers": {
+    "": {
+      "icon": "cadence",
+      "title": "Mobile",
+      "description": "Flow Mobile docs section",
+      "headerCards": [
         {
-          "title": "Developer Guides",
-          "items": [
-            {
-              "title": "Introduction to Cadence",
-              "href": ""
-            },
-            {
-              "title": "Cadence Design Patterns",
-              "href": "design-patterns"
-            },
-            {
-              "title": "Contract Upgrades with Incompatible Changes",
-              "href": "contract-upgrades"
-            }
-          ]
+          "title": "Why Use Cadence?",
+          "tags": [
+            "reference",
+            "patterns"
+          ],
+          "description": "Learn the main benefits of using Cadence for smart contract development.",
+          "href": "/cadence/why"
+        },
+        {
+          "title": "Hello World Tutorial",
+          "tags": [
+            "tutorial",
+            "playground"
+          ],
+          "description": "Write and deploy your first smart contract within minutes on our Playground.",
+          "href": "/cadence/tutorial/02-hello-world"
         }
       ]
     }
+  },
+  "sidebars": {
+    "": [
+      {
+        "title": "Overview",
+        "items": [
+          {
+            "title": "Introduction",
+            "href": "/mobile/introduction"
+          },
+          {
+            "title": "Getting Started",
+            "href": "/mobile/get-started"
+          }
+        ]
+      },
+      {
+        "title": "Developer Guides",
+        "items": [
+          {
+            "title": "Development environment",
+            "href": "/mobile/guides/development-environment"
+          },
+          {
+            "title": "User management",
+            "href": "/mobile/guides/user-management"
+          },
+          {
+            "title": "On-chain interactions",
+            "href": "/mobile/guides/onchain-interactions"
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "items": [
+          {
+            "title": "Android SDK",
+            "href": "/mobile/references/android"
+          },
+          {
+            "title": "iOS SDK",
+            "href": "/mobile/references/ios"
+          }
+        ]
+      }
+    ]
   }
+}
