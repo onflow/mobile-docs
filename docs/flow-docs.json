@@ -2,7 +2,7 @@
   "$schema": "https://developers.flow.com/schemas/flow-docs.json",
   "displayName": "Mobile",
   "redirects": {
-    "": "index"
+    "": ""
   },
   "headers": {
     "": {
