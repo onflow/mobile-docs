@@ -5,25 +5,46 @@
     "": {
       "icon": "cadence",
       "title": "Mobile",
-      "description": "Flow Mobile docs section",
+      "description": "Build secure native mobile applications with best-in-class user experience on Flow",
       "headerCards": [
         {
-          "title": "Why Use Cadence?",
+          "title": "Mobile development environment",
           "tags": [
-            "reference",
-            "patterns"
+            "guide",
+            "local-development"
           ],
-          "description": "Learn the main benefits of using Cadence for smart contract development.",
-          "href": "/cadence/why"
+          "description": "Set up your local development environment",
+          "href": "/mobile/guides/development-environment"
         },
         {
-          "title": "Hello World Tutorial",
+          "title": "Kotlin FCL SDK",
           "tags": [
-            "tutorial",
-            "playground"
+            "sdk",
+            "fcl",
+            "android"
           ],
-          "description": "Write and deploy your first smart contract within minutes on our Playground.",
-          "href": "/cadence/tutorial/02-hello-world"
+          "description": "Use the FCL Kotlin SDK",
+          "href": "https://github.com/outblock/fcl-android"
+        },
+        {
+          "title": "Swift FCL SDK",
+          "tags": [
+            "sdk",
+            "fcl",
+            "ios"
+          ],
+          "description": "Use the FCL Swift SDK",
+          "href": "https://github.com/outblock/fcl-swift"
+        },
+        {
+          "title": "Swift Flow Access node SDK",
+          "tags": [
+            "sdk",
+            "access node",
+            "ios"
+          ],
+          "description": "Use the Swift Access Node SDK",
+          "href": "https://github.com/outblock/flow-swift"
         }
       ]
     }
@@ -33,10 +54,6 @@
       {
         "title": "Overview",
         "items": [
-          {
-            "title": "Introduction",
-            "href": "/mobile/introduction"
-          },
           {
             "title": "Getting Started",
             "href": "/mobile/get-started"
@@ -64,12 +81,16 @@
         "title": "References",
         "items": [
           {
-            "title": "Android SDK",
-            "href": "/mobile/references/android"
+            "title": "Kotlin FCL SDK",
+            "href": "https://github.com/outblock/fcl-android"
           },
           {
-            "title": "iOS SDK",
-            "href": "/mobile/references/ios"
+            "title": "Swift FCL SDK",
+            "href": "https://github.com/outblock/fcl-swift"
+          },
+          {
+            "title": "Swift Access Node SDK",
+            "href": "https://github.com/outblock/flow-swift"
           }
         ]
       }
