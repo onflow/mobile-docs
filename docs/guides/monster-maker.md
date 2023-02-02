@@ -230,7 +230,7 @@ let nftList = try await fcl.query(script: cadenceScript,
 														.decode([NFTModel].self)
 ```
 
-# Resources
+# External Resources
 
 **FCL Swift**
 
@@ -250,8 +250,10 @@ One of the easiest ways to connect to a wallet via a mobile native dApp is throu
 
 [FCL Wallet Connect](https://developers.flow.com/tools/fcl-js/reference/wallet-connect)
 
+
 **How to Build a Native iOS Dapp**
 
 The Agile Monkeys has written a very comprehensive guide on how to build a native mobile application on iOS and interface with fcl-swift. Found here:
 
 [How to Build a Native iOS Dapper](https://dev.to/theagilemonkeys/how-to-buid-a-native-ios-dapp-that-uses-the-flow-blockchain-as-the-backend-n9k)
+[Source Code](https://github.com/jfsagasti/FlowNotes)
