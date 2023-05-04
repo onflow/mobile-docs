@@ -1,10 +1,3 @@
----
-title: Local Development Environment for Mobile
----
+# This document has been moved to a new location:
 
-    - Android
-        - CLI: Emulator, Dev wallet
-        - IDE & extension
-    - iOS
-        - CLI: Emulator, Dev wallet
-        - IDE & extension
+https://github.com/onflow/docs/tree/main/docs/concepts/mobile/guides/development-environment.md

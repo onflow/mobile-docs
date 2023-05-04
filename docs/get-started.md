@@ -1,4 +1,3 @@
----
-title: Get Started with Flow Mobile
----
+# This document has been moved to a new location:
 
+https://github.com/onflow/docs/tree/main/docs/concepts/mobile/get-started.md

@@ -1,6 +1,3 @@
----
-title: Flow On-chain Interactions on Mobile
----
+# This document has been moved to a new location:
 
-    - Run Cadence queries
-    - Broadcast transactions
+https://github.com/onflow/docs/tree/main/docs/concepts/mobile/guides/onchain-interactions.md
