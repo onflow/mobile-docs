@@ -1,7 +1,3 @@
----
-title: Flow User Management on Mobile
----
+# This document has been moved to a new location:
 
-    - Authenticate via FCL & WC
-    - Get account info
-    - Display user-owned NFT
+https://github.com/onflow/docs/tree/main/docs/concepts/mobile/guides/user-management.md
